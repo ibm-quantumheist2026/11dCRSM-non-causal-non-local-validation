@@ -11,6 +11,7 @@
   "scripts": {
     "start": "node backend/evolution_engine.js",
     "start:backend": "node backend/evolution_engine.js",
+    "start:api": "python3 backend/nclm_api.py",
     "start:tokenomics": "node backend/tokenomics_engine.js",
     "start:dashboard": "streamlit run tokenomics_app.py --server.port 8502",
 
